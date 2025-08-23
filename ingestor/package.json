@@ -1,0 +1,14 @@
+{
+  "name": "ingestor",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "date-fns": "3.6.0",
+    "zod": "3.23.8"
+  }
+}

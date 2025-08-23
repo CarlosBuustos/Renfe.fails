@@ -1,0 +1,11 @@
+{
+  "name": "renfe.fail",
+  "private": true,
+  "workspaces": ["web", "ingestor"],
+  "scripts": {
+    "build": "pnpm -C web build",
+    "dev": "pnpm -C web dev",
+    "ingest": "pnpm -C ingestor start"
+  },
+  "packageManager": "pnpm@9.7.0"
+}
